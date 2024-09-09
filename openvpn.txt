@@ -1,0 +1,11 @@
+1- wget https://raw.githubusercontent.com/Nyr/openvpn-install/master/openvpn-install.sh
+
+2- apt update&&apt install unzip&&unzip -j openvpn-install-master.zip
+
+3- bash openvpn-install.sh
+
+-----------
+درصورتی که فعال نشد و کار نکرد از دو دستور زیر استفاده کنید
+
+*- systemctl enable openvpn@server
+*- reboot
